@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.header h1 span {
+  color: #00bfa6;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #00bfa6;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 75px;
+  height: calc(100vh - 150px);
+}
+
+.left-side {
+  background-color: #00bfa6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  width: 400px;
+}
+
+.sign-in-btn {
+  background-color: #00bfa6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.right-side {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  background-color: white;
+  margin-left: -50px;
+}
+
+.right-side h2 {
+  margin-bottom: 20px;
+}
+
+.social-signup button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.sign-up-btn {
+  background-color: #00bfa6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.left-side h1 {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.left-side p {
+  color: black;
+  font-size: large;
+  margin-bottom: 20px;
+}
