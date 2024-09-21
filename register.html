@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="register.css" />
   </head>
   <body>
@@ -18,26 +18,28 @@
       </nav>
     </div>
     <div class="container">
-      <div class="left-side">
-        <h1>
-          Welcome Back!
-          <p>To keep connected with us please login with your personal info</p>
-        </h1>
-        <button class="sign-in-btn">SIGN IN</button>
-      </div>
-      <div class="right-side">
-        <h2>Create Account</h2>
-        <div class="social-signup">
-          <button class="facebook-btn">Sign up with Facebook</button>
-          <button class="google-btn">Sign up with Google</button>
-          <button class="linkedin-btn">Sign up with LinkedIn</button>
+      <div class="mid-con">
+        <div class="mid-logo">
+          <h1>Note <span>It!</span></h1>
         </div>
-        <p>or use your email for registration</p>
         <form>
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" required />
-          <input type="password" placeholder="Password" required />
-          <button type="submit" class="sign-up-btn">SIGN UP</button>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email" />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" />
+
+
+          <div class="checkbox-container">
+            <input type="checkbox" id="show-password" name="show-password" />
+            <label for="show-password">See Password</label>
+          </div>
+
+          <button type="submit" class="sign-up-btn">
+            <a href="sign-in.html">SIGN UP</a></button>
         </form>
       </div>
     </div>
